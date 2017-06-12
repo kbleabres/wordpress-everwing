@@ -1,3 +1,19 @@
+<?php get_header(); ?>
+
+ <?php /*
+   if ( have_posts() ) {
+     while ( have_posts() ) : the_post();
+ ?>
+   <div class="blog-post">
+   <h2 class="blog-post-title"><?php the_title(); ?></h2>
+   <p class="blog-post-meta"><?php the_date(); ?> by <?php the_author(); ?></p>
+   <?php the_content(); ?>
+   </div><!-- /.blog-post -->
+ <?php
+   endwhile;
+   }
+  */ ?>
+
 <!-- Services Section -->
 <section id="services">
   <div class="container">
@@ -53,7 +69,7 @@
               <i class="fa fa-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/roundicons.png" class="img-responsive" alt="">
         </a>
         <div class="portfolio-caption">
           <h4>Round Icons</h4>
@@ -67,7 +83,7 @@
               <i class="fa fa-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/startup-framework.png" class="img-responsive" alt="">
         </a>
         <div class="portfolio-caption">
           <h4>Startup Framework</h4>
@@ -81,7 +97,7 @@
               <i class="fa fa-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/treehouse.png" class="img-responsive" alt="">
         </a>
         <div class="portfolio-caption">
           <h4>Treehouse</h4>
@@ -95,7 +111,7 @@
               <i class="fa fa-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/golden.png" class="img-responsive" alt="">
         </a>
         <div class="portfolio-caption">
           <h4>Golden</h4>
@@ -109,7 +125,7 @@
               <i class="fa fa-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/escape.png" class="img-responsive" alt="">
         </a>
         <div class="portfolio-caption">
           <h4>Escape</h4>
@@ -123,7 +139,7 @@
               <i class="fa fa-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/dreams.png" class="img-responsive" alt="">
         </a>
         <div class="portfolio-caption">
           <h4>Dreams</h4>
@@ -148,7 +164,7 @@
         <ul class="timeline">
           <li>
             <div class="timeline-image">
-              <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+              <img class="img-circle img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/about/1.jpg" alt="">
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -162,7 +178,7 @@
           </li>
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+              <img class="img-circle img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/about/2.jpg" alt="">
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -176,7 +192,7 @@
           </li>
           <li>
             <div class="timeline-image">
-              <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+              <img class="img-circle img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/about/3.jpg" alt="">
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -190,7 +206,7 @@
           </li>
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+              <img class="img-circle img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/about/4.jpg" alt="">
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -228,7 +244,7 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="team-member">
-          <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/team/1.jpg" class="img-responsive img-circle" alt="">
           <h4>Kay Garland</h4>
           <p class="text-muted">Lead Designer</p>
           <ul class="list-inline social-buttons">
@@ -246,7 +262,7 @@
       </div>
       <div class="col-sm-4">
         <div class="team-member">
-          <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/team/2.jpg" class="img-responsive img-circle" alt="">
           <h4>Larry Parker</h4>
           <p class="text-muted">Lead Marketer</p>
           <ul class="list-inline social-buttons">
@@ -261,7 +277,7 @@
       </div>
       <div class="col-sm-4">
         <div class="team-member">
-          <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/team/3.jpg" class="img-responsive img-circle" alt="">
           <h4>Diana Pertersen</h4>
           <p class="text-muted">Lead Developer</p>
           <ul class="list-inline social-buttons">
@@ -292,22 +308,22 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <a href="#">
-                    <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logos/envato.jpg" class="img-responsive img-centered" alt="">
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
                 <a href="#">
-                    <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
                 <a href="#">
-                    <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
                 <a href="#">
-                    <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
                 </a>
             </div>
         </div>
@@ -359,4 +375,4 @@
     </div>
 </section>
 
-
+<?php get_footer(); ?>

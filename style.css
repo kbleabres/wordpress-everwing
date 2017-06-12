@@ -7,3 +7,11 @@
   Version: 0.1
   Text Domain: lalala
 */
+
+@import url('css/bootstrap.min.css');
+@import url('font-awesome/css/font-awesome.min.css');
+@import url('css/agency.min.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700');

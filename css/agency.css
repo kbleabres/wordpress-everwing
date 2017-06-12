@@ -17,31 +17,19 @@ p {
   font-size: 14px;
   line-height: 1.75;
 }
-p.large {
+.large {
   font-size: 16px;
 }
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
+a, a:hover, a:focus, a:active, a.active {
   outline: none;
 }
 a {
   color: #fed136;
 }
-a:hover,
-a:focus,
-a:active,
-a.active {
+a:hover, a:focus, a:active, a.active {
   color: #fec503;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -63,17 +51,14 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
   background-color: #fec503;
   border-color: #f6bf01;
 }
-.btn-primary:active,
-.btn-primary.active,
+.btn-primary:active, .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   background-image: none;
 }
@@ -718,9 +703,7 @@ ul.social-buttons li a:active {
   background-color: #222222;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
-  /* IE 9 */
   -webkit-transform: rotate(90deg);
-  /* Safari and Chrome */
   z-index: 1052;
 }
 .portfolio-modal .modal-backdrop {
